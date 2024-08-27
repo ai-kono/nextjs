@@ -2,9 +2,9 @@ import { Inter } from 'next/font/google';
 
 export const inter = Inter({ subsets: ['latin'] });
 
-import { Noto_Sans_Javanese } from 'next/font/google';
+import { Lusitana } from 'next/font/google';
 
-export const notosans_jp = Noto_Sans_Javanese({
+export const lusitana = Lusitana({
   subsets: ['latin'],
-  weight: '500',
+  weight: ['400', '700'],
 });
